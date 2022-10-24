@@ -12,3 +12,5 @@ const cliente = {
 
 console.log(`O nome do cliente é ${cliente.nome} e ele tem ${cliente.idade} anos, inscrito sob o CPF ${cliente.cpf} e possui o e-mail ${cliente.email}.`)
 console.log('O nome do cliente é ' + cliente.nome + ' e ele tem ' + cliente.idade + ' anos, inscrito sob o CPF ' + cliente.cpf + ' e possui o e-mail ' + cliente.email + '.')
+
+console.log(cliente.cpf.substring(0,3))
