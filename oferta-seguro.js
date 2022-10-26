@@ -22,3 +22,18 @@ const cliente = {
         this.saldo -= valor
     }
 }
+
+function oferecerSeguro(obj) {
+    const propsClientes = Object.keys(obj)
+    if (propsClientes.includes("dependentes")) 
+    {
+        console.log(`Oferta de seguro de vida para ${obj.nome}`)   
+    }
+}
+
+console.log(Object.values(cliente))
+console.log(Object.entries(cliente))
+oferecerSeguro(cliente)
+
+
+
